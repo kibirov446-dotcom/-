@@ -19,8 +19,6 @@ android {
             useSupportLibrary = true
         }
     }
-
-    signingConfigs {
         create("release") {
             storeFile = file("${rootDir}/debug.keystore")
             storePassword = "android"
@@ -38,7 +36,6 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
-            signingConfig = signingConfigs.getByName("release")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
