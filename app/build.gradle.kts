@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application") version "8.3.2"
     id("org.jetbrains.kotlin.android") version "1.9.22"
+    id("org.jetbrains.kotlin.plugin.serialization") version "1.9.22"
 }
 
 android {
@@ -51,7 +52,14 @@ dependencies {
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
+    
+    // Расширенные иконки Material (нужны для DeleteSweep, SearchOff, OpenInNew и т.д.)
+    implementation("androidx.compose.material:material-icons-extended")
+
+    // Навигация с поддержкой Kotlin Serialization
     implementation("androidx.navigation:navigation-compose:2.7.7")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
+
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.7.0")
 
