@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">EagleOSINT</string>
+    <string name="messenger_title">EagleOSINT Messenger</string>
+    <string name="status_online">в сети (активно)</string>
+    <string name="section_modules">МОДУЛИ РАЗВЕДКИ (ЧАТЫ)</string>
+    <string name="search_chats_desc">Поиск по чатам</string>
+    <string name="search_chats_hint">Поиск модуля…</string>
+    <string name="close_search_desc">Закрыть поиск</string>
+    <string name="menu_desc">Меню</string>
+    <string name="menu_clear_history">Очистить историю сканирований</string>
+    <string name="menu_about">О приложении</string>
+    <string name="about_title">EagleOSINT Mobile</string>
+    <string name="about_body">OSINT-клиент в стиле Telegram для проверки никнеймов по платформам, генерации Google Dork-запросов и инспекции открытых профилей GitHub.</string>
+    <string name="action_close">Закрыть</string>
+    <string name="action_back">Назад</string>
+    <string name="action_send">Отправить</string>
+    <string name="action_open">Открыть</string>
+    <string name="action_clear_chat">Очистить чат</string>
+    <string name="time_just_now">только что</string>
+    <string name="empty_search_title">Модули не найдены</string>
+    <string name="empty_search_subtitle">Попробуйте изменить поисковый запрос</string>
+    <string name="status_enter_target">Введите цель для начала разведки</string>
+    <string name="bot_greeting_template">Привет! Отправь мне цель для анализа. %1$s.</string>
+</resources>

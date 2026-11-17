@@ -1,0 +1,8 @@
+{
+  "name": "EagleOSINT",
+  "description": "Telegram-styled OSINT reconnaissance and username, Google Dork, and GitHub inspection app",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
