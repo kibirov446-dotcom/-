@@ -12,6 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-
-rootProject.name = "EagleOSINT"
+rootProject.name = "EagleOSINTMobile"
 include(":app")
